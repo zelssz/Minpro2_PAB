@@ -155,3 +155,6 @@ Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skin
 | `user_id` | uuid | ID pengguna yang memiliki data skincare tersebut. Digunakan untuk memisahkan data setiap akun. |
 | `favorite` | bool | Menandai apakah produk skincare tersebut termasuk favorit (`true`) atau tidak (`false`). |
 
+## Halaman
+## Validasi Input
+## Alur
