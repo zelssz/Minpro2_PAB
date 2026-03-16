@@ -205,8 +205,10 @@ Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skin
 
 Pada halaman Login, aplikasi menerapkan beberapa validasi untuk memastikan data yang dimasukkan pengguna sudah benar sebelum proses login dilakukan. Validasi pertama terdapat pada email, dimana email harus menggunakan format yang benar dan menggunakan domain @gmail.com. Jika email yang dimasukkan tidak sesuai dengan format tersebut, maka akan muncul pesan peringatan agar pengguna memasukkan email yang valid. Selain itu, pada bagian password juga terdapat validasi yang mengharuskan password memiliki minimal 8 karakter agar akun lebih aman.
 
+<img width="1920" height="1014" alt="Image" src="https://github.com/user-attachments/assets/270d18b0-4505-4d67-b915-ea3d620c8265" />
 
 Pada contoh ketika pengguna memasukkan email zahraaa@gmail.com
 , sistem menampilkan pesan “Email atau password salah”. Hal ini terjadi karena email tersebut belum terdaftar di database, sehingga aplikasi tidak dapat menemukan akun yang sesuai. Oleh karena itu, pengguna perlu melakukan registrasi terlebih dahulu melalui halaman register sebelum dapat melakukan login ke dalam aplikasi.
 
 ## Alur
+
