@@ -264,10 +264,6 @@ Pada halaman Add Skincare, terdapat validasi yang memastikan semua data yang dip
 
 Ketika pengguna menekan tombol Kembali ke Homepage sebelum menyimpan data, aplikasi akan menampilkan konfirmasi “Perubahan yang belum disimpan akan hilang”. Pengguna kemudian diberi pilihan Batal atau Ya. Tujuan dari validasi ini adalah untuk memastikan pengguna tidak kehilangan data yang sudah ditulis secara tidak sengaja, sehingga pengguna dapat memutuskan apakah ingin kembali atau tetap melanjutkan pengisian data.
 
-Validasi Saat Kembali ke Homepage (Data Kosong)
-
-Pada halaman Add Skincare, ketika pengguna menekan tombol Kembali ke Homepage tanpa mengisi data apa pun, aplikasi akan menampilkan pesan konfirmasi “Kembali ke Homepage? Data kosong tetap keluar.”. Pesan ini memberi tahu bahwa meskipun tidak ada data yang diisi, pengguna tetap bisa keluar dari halaman tersebut. Tujuan dari validasi ini adalah untuk memastikan bahwa pengguna benar-benar ingin keluar dari halaman tersebut dan mencegah perpindahan halaman secara tidak sengaja.
-
 ---
 
 ## Notifikasi Snackbar
@@ -277,7 +273,6 @@ Notifikasi Snackbar digunakan untuk memberi tahu pengguna bahwa suatu aksi di ap
 ---
 
 ### Notifikasi Edit Skincare
-<img width="1918" height="1014" alt="Image" src="https://github.com/user-attachments/assets/8f43a65a-f726-49a4-906e-940b76587368" />
 
 <img width="1916" height="1016" alt="Image" src="https://github.com/user-attachments/assets/a792dbeb-43da-42aa-b64c-bb53d5487bfe" />
 
@@ -323,9 +318,17 @@ Notifikasi ini muncul setelah pengguna menambahkan data skincare baru melalui ha
 Checkbox hapus (1 skincare berhasil dihapus)
 Notifikasi ini muncul ketika pengguna memilih produk menggunakan checkbox lalu menekan tombol Hapus. Sistem akan menghapus produk yang dipilih dan menampilkan pesan bahwa 1 data skincare berhasil dihapus.
 
+---
 
 ## Filter Skincare
 
+<img width="1915" height="1013" alt="Image" src="https://github.com/user-attachments/assets/1823f158-737f-4f43-bccd-79e3ce6b4d6e" />
+
 Pada halaman Homepage aplikasi Calméra, pengguna dapat melihat daftar skincare yang sudah disimpan. Di bagian atas terdapat search bar untuk mencari produk dan filter kategori seperti All, Cleanser, Toner, Serum, Moisturizer, dan Sunscreen untuk menampilkan produk berdasarkan jenisnya. Pada gambar ini kategori Cleanser dipilih sehingga hanya produk cleanser yang ditampilkan.
+
+---
+
+## Alur Penggunaan Aplikasi Calméra
+
 
 
