@@ -233,6 +233,8 @@ Validasi Saat Kembali ke Homepage (Data Kosong)
 
 Pada halaman Add Skincare, ketika pengguna menekan tombol Kembali ke Homepage tanpa mengisi data apa pun, aplikasi akan menampilkan pesan konfirmasi “Kembali ke Homepage? Data kosong tetap keluar.”. Pesan ini memberi tahu bahwa meskipun tidak ada data yang diisi, pengguna tetap bisa keluar dari halaman tersebut. Tujuan dari validasi ini adalah untuk memastikan bahwa pengguna benar-benar ingin keluar dari halaman tersebut dan mencegah perpindahan halaman secara tidak sengaja.
 
+## Notifikasi Snackbar
+### Notifikasi Edit Skincare
 <img width="1918" height="1014" alt="Image" src="https://github.com/user-attachments/assets/8f43a65a-f726-49a4-906e-940b76587368" />
 
 <img width="1916" height="1016" alt="Image" src="https://github.com/user-attachments/assets/a792dbeb-43da-42aa-b64c-bb53d5487bfe" />
@@ -244,5 +246,34 @@ Pesan ini muncul ketika pengguna mengedit data skincare di halaman Edit Skincare
 
 b. Tidak ada perubahan data
 Pesan ini muncul ketika pengguna membuka halaman Edit Skincare, tetapi tidak mengubah apa pun lalu tetap menekan Simpan. Sistem mendeteksi bahwa data masih sama seperti sebelumnya, sehingga tidak ada yang diperbarui dan muncul pesan ini untuk memberi tahu pengguna.
+
+### Notifikasi Favorite
+
+<img width="1919" height="1014" alt="Image" src="https://github.com/user-attachments/assets/9b6f3d1d-0131-46e3-ae80-ffa1faef8eec" />
+
+<img width="1912" height="1012" alt="Image" src="https://github.com/user-attachments/assets/43f5acb6-4529-45cc-977f-b3e78e69fea5" />
+
+
+- Berhasil ditambahkan ke Favorite
+Notifikasi ini muncul ketika pengguna menekan ikon hati pada produk skincare. Sistem akan menambahkan produk tersebut ke daftar Favorite dan menampilkan pesan bahwa produk berhasil ditambahkan.
+
+- Berhasil dihapus dari Favorite
+Notifikasi ini muncul ketika pengguna menekan kembali ikon hati pada produk yang sudah menjadi favorite. Sistem akan menghapus produk tersebut dari daftar Favorite lalu menampilkan pesan bahwa produk berhasil dihapus.
+
+### Notifikasi Add Skincare
+<img width="1905" height="1020" alt="Image" src="https://github.com/user-attachments/assets/2f5026cb-707e-4b4b-bf2d-7bc1889c7b64" />
+
+Skincare berhasil ditambahkan
+Notifikasi ini muncul setelah pengguna menambahkan data skincare baru melalui halaman Add Skincare dan data berhasil disimpan ke database. Pesan ini memberi tahu bahwa data berhasil ditambahkan.
+
+### Notifikasi Hapus Skincare
+
+<img width="1920" height="1003" alt="Image" src="https://github.com/user-attachments/assets/d6219387-2db2-48af-b2ac-7ba8da438683" />
+
+<img width="1917" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d5720891-58f2-4e4b-8fa2-d0f287bb5e98" />
+
+Checkbox hapus (1 skincare berhasil dihapus)
+Notifikasi ini muncul ketika pengguna memilih produk menggunakan checkbox lalu menekan tombol Hapus. Sistem akan menghapus produk yang dipilih dan menampilkan pesan bahwa 1 data skincare berhasil dihapus.
 ## Alur
+
 
