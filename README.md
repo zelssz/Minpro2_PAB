@@ -123,6 +123,8 @@ File pubspec.yaml merupakan file konfigurasi utama dalam project Flutter. File i
 
 File .env digunakan untuk menyimpan konfigurasi penting atau data sensitif yang digunakan oleh aplikasi, seperti URL database, API key, atau kunci akses ke layanan backend seperti Supabase. Dengan menggunakan file .env, informasi penting tersebut tidak perlu ditulis langsung di dalam kode program, sehingga lebih aman dan mudah untuk dikelola. File ini biasanya berisi pasangan nama variabel dan nilai, misalnya URL dan API key yang digunakan untuk menghubungkan aplikasi dengan layanan backend. Penggunaan file .env juga memudahkan developer jika ingin mengganti konfigurasi tanpa harus mengubah kode utama aplikasi.
 
+---
+
 ## Fitur Aplikasi
 
 | **Fitur** | **Deskripsi** |
@@ -150,6 +152,8 @@ Aplikasi ini menggunakan Supabase Auth untuk menangani proses login dan register
 
 Aplikasi ini menggunakan file .env untuk menyimpan Supabase URL dan API Key agar data penting tidak ditulis langsung di dalam kode program. Cara ini membuat konfigurasi lebih aman dan lebih mudah dikelola jika suatu saat perlu diubah.
 
+---
+
 ## Struktur Database
 
 Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skincare milik pengguna.
@@ -164,37 +168,62 @@ Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skin
 | `user_id` | uuid | ID pengguna yang memiliki data skincare tersebut. Digunakan untuk memisahkan data setiap akun. |
 | `favorite` | bool | Menandai apakah produk skincare tersebut termasuk favorit (`true`) atau tidak (`false`). |
 
+---
+
 ## Tampilan Aplikasi
+---
 
 ### Halaman Login
 
 <img width="1919" height="1014" alt="Image" src="https://github.com/user-attachments/assets/0b4676e5-648f-4b09-94eb-fa4772821fe5" />
 
+---
 ### Halaman Register
 
 <img width="1919" height="1018" alt="Image" src="https://github.com/user-attachments/assets/f95a3183-23cf-443e-9a33-7aae9b3795d9" />
+
+---
 
 ### Halaman Dashboard
 
 <img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/78f44354-67f2-4f11-9294-497cf118b317" />
 
+---
+
 ### Halaman Add Skincare
 
 <img width="1920" height="1016" alt="Image" src="https://github.com/user-attachments/assets/01f06144-acd5-419a-812d-d37cf2f45af3" />
+
+---
 
 ### Halaman Edit Skincare
 
 <img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/c6c8811f-6757-43a0-b566-4e6632ea1c9b" />
 
+---
+
 ### Halaman Profile
 
 <img width="983" height="527" alt="Image" src="https://github.com/user-attachments/assets/484f8328-21cb-498c-873e-0816541c0665" />
+
+---
 
 ### Halaman Favorite Skincare
 
 <img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/e36738e2-82b6-4029-a802-ed6b1e6b8cc2" />
 
+
+<img width="1919" height="1011" alt="Image" src="https://github.com/user-attachments/assets/53f61987-6d56-4b32-ad54-c97f66657da7" />
+
+<img width="1920" height="1011" alt="Image" src="https://github.com/user-attachments/assets/3618eb45-254f-42cb-a205-364210fd3619" />
+
+---
+
 ## Validasi Input Pada Aplikasi
+
+Validasi input digunakan agar data yang dimasukkan ke dalam aplikasi tetap benar, lengkap, dan sesuai aturan. Dengan adanya validasi, pengguna tidak bisa mengisi data secara sembarangan, misalnya email harus menggunakan format yang benar, password harus memenuhi jumlah karakter tertentu, atau kolom yang wajib diisi tidak boleh kosong. Hal ini penting supaya data yang tersimpan di sistem tetap rapi dan tidak menyebabkan error pada aplikasi. Selain itu, validasi juga membantu pengguna mengetahui jika ada input yang salah sehingga bisa langsung diperbaiki sebelum data disimpan.
+
+---
 
 ### Validasi pada Halaman Login
 
@@ -210,11 +239,15 @@ Pada halaman Login, aplikasi menerapkan beberapa validasi untuk memastikan data 
 Pada contoh ketika pengguna memasukkan email zahraaa@gmail.com
 , sistem menampilkan pesan “Email atau password salah”. Hal ini terjadi karena email tersebut belum terdaftar di database, sehingga aplikasi tidak dapat menemukan akun yang sesuai. Oleh karena itu, pengguna perlu melakukan registrasi terlebih dahulu melalui halaman register sebelum dapat melakukan login ke dalam aplikasi.
 
+---
+
 ### Validasi pada Halaman Register
 
 <img width="1920" height="1014" alt="Image" src="https://github.com/user-attachments/assets/f1226540-60d9-47fd-8b8d-0c206696c58e" />
 
 Pada halaman Register, terdapat validasi pada bagian confirm password untuk memastikan bahwa password yang dimasukkan sama dengan password yang diketik sebelumnya. Jika kedua password tidak sama, maka akan muncul pesan “Password tidak sama”. Tujuan dari validasi ini adalah untuk mencegah kesalahan saat membuat akun, sehingga pengguna tidak salah memasukkan password dan dapat login dengan benar setelah registrasi berhasil.
+
+---
 
 ### Validasi pada Halaman Add Skincare
 
@@ -222,6 +255,8 @@ Pada halaman Register, terdapat validasi pada bagian confirm password untuk mema
 
 
 Pada halaman Add Skincare, terdapat validasi yang memastikan semua data yang diperlukan telah diisi sebelum disimpan. Jika pengguna menekan tombol Simpan tetapi masih ada kolom yang kosong, maka akan muncul pesan “Please complete all skincare notes first”. Tujuan dari validasi ini adalah agar data skincare yang disimpan menjadi lengkap dan tidak ada informasi penting yang terlewat.
+
+---
 
 ### Validasi Saat Kembali ke Homepage
 
@@ -233,7 +268,14 @@ Validasi Saat Kembali ke Homepage (Data Kosong)
 
 Pada halaman Add Skincare, ketika pengguna menekan tombol Kembali ke Homepage tanpa mengisi data apa pun, aplikasi akan menampilkan pesan konfirmasi “Kembali ke Homepage? Data kosong tetap keluar.”. Pesan ini memberi tahu bahwa meskipun tidak ada data yang diisi, pengguna tetap bisa keluar dari halaman tersebut. Tujuan dari validasi ini adalah untuk memastikan bahwa pengguna benar-benar ingin keluar dari halaman tersebut dan mencegah perpindahan halaman secara tidak sengaja.
 
+---
+
 ## Notifikasi Snackbar
+
+Notifikasi Snackbar digunakan untuk memberi tahu pengguna bahwa suatu aksi di aplikasi berhasil dilakukan atau tidak ada perubahan data. Pesan ini biasanya muncul sebentar di bagian bawah layar setelah pengguna melakukan tindakan, seperti menambahkan skincare, menghapus data, atau menambahkan produk ke favorite. Dengan adanya snackbar, pengguna bisa langsung mengetahui hasil dari aksi yang dilakukan tanpa harus membuka halaman lain, sehingga penggunaan aplikasi menjadi lebih jelas dan mudah dipahami.
+
+---
+
 ### Notifikasi Edit Skincare
 <img width="1918" height="1014" alt="Image" src="https://github.com/user-attachments/assets/8f43a65a-f726-49a4-906e-940b76587368" />
 
@@ -246,6 +288,8 @@ Pesan ini muncul ketika pengguna mengedit data skincare di halaman Edit Skincare
 
 b. Tidak ada perubahan data
 Pesan ini muncul ketika pengguna membuka halaman Edit Skincare, tetapi tidak mengubah apa pun lalu tetap menekan Simpan. Sistem mendeteksi bahwa data masih sama seperti sebelumnya, sehingga tidak ada yang diperbarui dan muncul pesan ini untuk memberi tahu pengguna.
+
+---
 
 ### Notifikasi Favorite
 
@@ -260,11 +304,15 @@ Notifikasi ini muncul ketika pengguna menekan ikon hati pada produk skincare. Si
 - Berhasil dihapus dari Favorite
 Notifikasi ini muncul ketika pengguna menekan kembali ikon hati pada produk yang sudah menjadi favorite. Sistem akan menghapus produk tersebut dari daftar Favorite lalu menampilkan pesan bahwa produk berhasil dihapus.
 
+---
+
 ### Notifikasi Add Skincare
 <img width="1905" height="1020" alt="Image" src="https://github.com/user-attachments/assets/2f5026cb-707e-4b4b-bf2d-7bc1889c7b64" />
 
 Skincare berhasil ditambahkan
 Notifikasi ini muncul setelah pengguna menambahkan data skincare baru melalui halaman Add Skincare dan data berhasil disimpan ke database. Pesan ini memberi tahu bahwa data berhasil ditambahkan.
+
+---
 
 ### Notifikasi Hapus Skincare
 
@@ -274,6 +322,10 @@ Notifikasi ini muncul setelah pengguna menambahkan data skincare baru melalui ha
 
 Checkbox hapus (1 skincare berhasil dihapus)
 Notifikasi ini muncul ketika pengguna memilih produk menggunakan checkbox lalu menekan tombol Hapus. Sistem akan menghapus produk yang dipilih dan menampilkan pesan bahwa 1 data skincare berhasil dihapus.
-## Alur
+
+
+## Filter Skincare
+
+Pada halaman Homepage aplikasi Calméra, pengguna dapat melihat daftar skincare yang sudah disimpan. Di bagian atas terdapat search bar untuk mencari produk dan filter kategori seperti All, Cleanser, Toner, Serum, Moisturizer, dan Sunscreen untuk menampilkan produk berdasarkan jenisnya. Pada gambar ini kategori Cleanser dipilih sehingga hanya produk cleanser yang ditampilkan.
 
 
