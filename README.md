@@ -164,6 +164,37 @@ Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skin
 | `user_id` | uuid | ID pengguna yang memiliki data skincare tersebut. Digunakan untuk memisahkan data setiap akun. |
 | `favorite` | bool | Menandai apakah produk skincare tersebut termasuk favorit (`true`) atau tidak (`false`). |
 
-## Halaman
+## Tampilan Aplikasi
+
+### Halaman Login
+
+<img width="1919" height="1014" alt="Image" src="https://github.com/user-attachments/assets/0b4676e5-648f-4b09-94eb-fa4772821fe5" />
+
+### Halaman Register
+
+<img width="1919" height="1018" alt="Image" src="https://github.com/user-attachments/assets/f95a3183-23cf-443e-9a33-7aae9b3795d9" />
+
+### Halaman Dashboard
+
+<img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/78f44354-67f2-4f11-9294-497cf118b317" />
+
+### Halaman Add Skincare
+
+<img width="1920" height="1016" alt="Image" src="https://github.com/user-attachments/assets/01f06144-acd5-419a-812d-d37cf2f45af3" />
+
+### Halaman Edit Skincare
+
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/c6c8811f-6757-43a0-b566-4e6632ea1c9b" />
+
+### Halaman Profile
+
+<img width="983" height="527" alt="Image" src="https://github.com/user-attachments/assets/484f8328-21cb-498c-873e-0816541c0665" />
+
+### Halaman Favorite Skincare
+
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/e36738e2-82b6-4029-a802-ed6b1e6b8cc2" />
+
 ## Validasi Input
+
+
 ## Alur
