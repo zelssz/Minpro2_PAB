@@ -210,5 +210,28 @@ Pada halaman Login, aplikasi menerapkan beberapa validasi untuk memastikan data 
 Pada contoh ketika pengguna memasukkan email zahraaa@gmail.com
 , sistem menampilkan pesan “Email atau password salah”. Hal ini terjadi karena email tersebut belum terdaftar di database, sehingga aplikasi tidak dapat menemukan akun yang sesuai. Oleh karena itu, pengguna perlu melakukan registrasi terlebih dahulu melalui halaman register sebelum dapat melakukan login ke dalam aplikasi.
 
+### Validasi pada Halaman Register
+
+<img width="1920" height="1014" alt="Image" src="https://github.com/user-attachments/assets/f1226540-60d9-47fd-8b8d-0c206696c58e" />
+
+Pada halaman Register, terdapat validasi pada bagian confirm password untuk memastikan bahwa password yang dimasukkan sama dengan password yang diketik sebelumnya. Jika kedua password tidak sama, maka akan muncul pesan “Password tidak sama”. Tujuan dari validasi ini adalah untuk mencegah kesalahan saat membuat akun, sehingga pengguna tidak salah memasukkan password dan dapat login dengan benar setelah registrasi berhasil.
+
+### Validasi pada Halaman Add Skincare
+
+<img width="1919" height="1014" alt="Image" src="https://github.com/user-attachments/assets/543ad3d0-7955-468a-80e2-30113e99767c" />
+
+
+Pada halaman Add Skincare, terdapat validasi yang memastikan semua data yang diperlukan telah diisi sebelum disimpan. Jika pengguna menekan tombol Simpan tetapi masih ada kolom yang kosong, maka akan muncul pesan “Please complete all skincare notes first”. Tujuan dari validasi ini adalah agar data skincare yang disimpan menjadi lengkap dan tidak ada informasi penting yang terlewat.
+
+### Validasi Saat Kembali ke Homepage
+
+<img width="1920" height="1004" alt="Image" src="https://github.com/user-attachments/assets/b322b828-899d-45b3-a584-198ebd351040" />
+
+Ketika pengguna menekan tombol Kembali ke Homepage sebelum menyimpan data, aplikasi akan menampilkan konfirmasi “Perubahan yang belum disimpan akan hilang”. Pengguna kemudian diberi pilihan Batal atau Ya. Tujuan dari validasi ini adalah untuk memastikan pengguna tidak kehilangan data yang sudah ditulis secara tidak sengaja, sehingga pengguna dapat memutuskan apakah ingin kembali atau tetap melanjutkan pengisian data.
+
+Validasi Saat Kembali ke Homepage (Data Kosong)
+
+Pada halaman Add Skincare, ketika pengguna menekan tombol Kembali ke Homepage tanpa mengisi data apa pun, aplikasi akan menampilkan pesan konfirmasi “Kembali ke Homepage? Data kosong tetap keluar.”. Pesan ini memberi tahu bahwa meskipun tidak ada data yang diisi, pengguna tetap bisa keluar dari halaman tersebut. Tujuan dari validasi ini adalah untuk memastikan bahwa pengguna benar-benar ingin keluar dari halaman tersebut dan mencegah perpindahan halaman secara tidak sengaja.
+
 ## Alur
 
