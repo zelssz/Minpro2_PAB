@@ -77,12 +77,19 @@ Berikut adalah widget utama yang digunakan dalam pengembangan aplikasi **Calmera
 
 ### 📁 Folder assets/images
 
+<img width="187" height="93" alt="Image" src="https://github.com/user-attachments/assets/ffe950b5-4020-4805-88cc-1eeff5325f76" />
+
 Folder assets/images digunakan untuk menyimpan berbagai file gambar yang digunakan di dalam aplikasi. Gambar-gambar ini biasanya dipakai sebagai elemen tampilan pada halaman aplikasi, seperti background, banner, atau ilustrasi lainnya. Pada project ini terdapat file baground.jpeg dan banner.jpg yang berfungsi sebagai gambar visual untuk mempercantik tampilan aplikasi. File gambar dari folder ini nantinya akan dipanggil di dalam kode Flutter menggunakan widget seperti Image.asset() sehingga gambar dapat ditampilkan di halaman aplikasi.
 
 ### 📁 Folder lib
+
+<img width="257" height="125" alt="Image" src="https://github.com/user-attachments/assets/0e4d133e-ffd6-44cf-80a8-124e77ad33b2" />
+
 Folder lib merupakan folder utama dalam project Flutter yang berisi seluruh kode program aplikasi. Semua logika, tampilan halaman, serta fungsi yang mengatur jalannya aplikasi ditulis di dalam folder ini. Oleh karena itu, folder lib menjadi bagian paling penting dalam project Flutter karena seluruh fitur aplikasi dikembangkan di dalam folder ini.
 
 ### 📁 Folder lib/pages
+
+<img width="240" height="166" alt="Image" src="https://github.com/user-attachments/assets/17a3dfc3-4d7d-44c5-a03c-2d40c0af1d94" />
 
 Folder pages digunakan untuk menyimpan file yang berisi halaman atau tampilan utama aplikasi. Setiap file di dalam folder ini biasanya merepresentasikan satu halaman pada aplikasi yang dapat dilihat oleh pengguna.
 
@@ -99,6 +106,8 @@ Pada project ini terdapat beberapa halaman, yaitu:
 - register_page.dart digunakan sebagai halaman untuk membuat akun baru agar pengguna dapat mendaftar ke dalam aplikasi.
 
 ### 📁 Folder lib/services
+
+<img width="237" height="65" alt="Image" src="https://github.com/user-attachments/assets/7083630b-7a3b-446c-8a8d-b1f688384820" />
 
 Folder services digunakan untuk menyimpan file yang berisi logika yang berhubungan dengan pengolahan data atau komunikasi dengan layanan backend. Dalam project ini terdapat file supabase_service.dart yang berfungsi untuk menghubungkan aplikasi Flutter dengan database Supabase. File ini biasanya berisi fungsi-fungsi seperti mengambil data dari database, menambahkan data baru, melakukan autentikasi pengguna, atau memperbarui data yang sudah ada.
 
