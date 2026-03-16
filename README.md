@@ -194,7 +194,19 @@ Aplikasi ini menggunakan database dari Supabase untuk menyimpan data produk skin
 
 <img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/e36738e2-82b6-4029-a802-ed6b1e6b8cc2" />
 
-## Validasi Input
+## Validasi Input Pada Aplikasi
 
+### Validasi pada Halaman Login
+
+<img width="1920" height="1011" alt="Image" src="https://github.com/user-attachments/assets/e0731137-c109-45ba-95c5-f909dc7b0453" />
+
+<img width="1917" height="1014" alt="Image" src="https://github.com/user-attachments/assets/a7a97392-edfb-40a1-b053-11d3bc327c79" />
+
+
+Pada halaman Login, aplikasi menerapkan beberapa validasi untuk memastikan data yang dimasukkan pengguna sudah benar sebelum proses login dilakukan. Validasi pertama terdapat pada email, dimana email harus menggunakan format yang benar dan menggunakan domain @gmail.com. Jika email yang dimasukkan tidak sesuai dengan format tersebut, maka akan muncul pesan peringatan agar pengguna memasukkan email yang valid. Selain itu, pada bagian password juga terdapat validasi yang mengharuskan password memiliki minimal 8 karakter agar akun lebih aman.
+
+
+Pada contoh ketika pengguna memasukkan email zahraaa@gmail.com
+, sistem menampilkan pesan “Email atau password salah”. Hal ini terjadi karena email tersebut belum terdaftar di database, sehingga aplikasi tidak dapat menemukan akun yang sesuai. Oleh karena itu, pengguna perlu melakukan registrasi terlebih dahulu melalui halaman register sebelum dapat melakukan login ke dalam aplikasi.
 
 ## Alur
