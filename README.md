@@ -330,5 +330,33 @@ Pada halaman Homepage aplikasi Calméra, pengguna dapat melihat daftar skincare 
 
 ## Alur Penggunaan Aplikasi Calméra
 
+### 1. Login
+
+Pada awal penggunaan aplikasi, pengguna akan masuk ke halaman Login Calméra. Di halaman ini pengguna perlu memasukkan email dan password yang sudah didaftarkan sebelumnya. Setelah data diisi dengan benar, pengguna dapat menekan tombol Login untuk masuk ke dalam aplikasi dan melihat halaman utama. Jika pengguna belum memiliki akun, pengguna bisa menekan tombol Register untuk membuat akun terlebih dahulu sebelum login.
+
+### 2. Register
+
+Jika pengguna belum memiliki akun, pengguna dapat masuk ke halaman Register Calméra untuk membuat akun terlebih dahulu. Pada halaman ini pengguna perlu mengisi email, password, dan confirm password. Password yang dimasukkan pada confirm password harus sama dengan password utama. Setelah semua data diisi dengan benar, pengguna dapat menekan tombol Register untuk membuat akun. Setelah berhasil mendaftar, pengguna bisa kembali ke halaman Login untuk masuk ke aplikasi.
+
+### 3. Homepage
+
+Setelah berhasil login, pengguna akan masuk ke halaman utama (Homepage) aplikasi Calméra. Di halaman ini pengguna bisa melihat daftar skincare yang sudah disimpan. Di bagian atas terdapat search bar untuk mencari produk dan filter kategori seperti All, Cleanser, Toner, Serum, Moisturizer, dan Sunscreen untuk menampilkan produk berdasarkan jenisnya.
+
+### 4. Add Skincare
+
+Pada halaman Add Skincare, pengguna bisa menambahkan produk skincare baru ke dalam aplikasi. Di sini pengguna perlu mengisi nama produk, memilih jenis produk, dan menuliskan cara pakai atau catatan. Setelah semua data diisi, pengguna dapat menekan tombol Simpan untuk menyimpan data skincare ke dalam daftar. Jika ingin kembali tanpa menambahkan data, pengguna bisa menekan tombol Kembali ke Homepage.
+
+### 5. Edit Skincare
+
+Pada halaman Edit Skincare, pengguna bisa mengubah data skincare yang sudah tersimpan sebelumnya. Di halaman ini pengguna dapat mengedit nama produk, jenis produk, dan catatan atau cara pakai. Setelah data diperbarui, pengguna dapat menekan tombol Simpan untuk menyimpan perubahan. Jika tidak ingin mengubah data, pengguna bisa menekan tombol Kembali ke Homepage untuk kembali ke halaman utama.
+
+### 6. Search Skincare
+
+Pada halaman Homepage, pengguna juga bisa menggunakan fitur search untuk mencari skincare dengan lebih cepat. Pengguna cukup mengetik nama produk atau jenis produk pada kolom pencarian, lalu aplikasi akan menampilkan produk yang sesuai dengan kata kunci yang dimasukkan. Dengan fitur ini, pengguna tidak perlu mencari secara manual di daftar skincare karena produk bisa langsung ditemukan melalui pencarian.
+
+### 7. Favorite Skincare
+
+
+Pada aplikasi Calméra juga terdapat halaman Favorite Skincare yang berfungsi untuk melihat produk skincare yang sudah ditandai sebagai favorite. Di halaman ini produk ditampilkan berdasarkan kategori seperti Cleanser, Toner, Serum, Moisturizer, dan Sunscreen. Pengguna bisa menekan salah satu kategori untuk melihat produk favorite sesuai jenisnya. Selain itu, pengguna juga bisa memilih menu All Favorite untuk melihat semua produk favorite dalam satu halaman. Dengan fitur ini, pengguna bisa lebih mudah menemukan skincare yang paling sering digunakan atau disukai.
 
 
